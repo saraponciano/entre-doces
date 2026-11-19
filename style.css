@@ -7,7 +7,7 @@ body {
     color: #5c4540;
 }
 
-/*cabeçalho*/
+/*cabecalho*/
 header {
     background-color: #ffffff;
     padding: 10px 2%;
@@ -166,8 +166,8 @@ div.video iframe{
 }
 
 /*cardapio*/
-/* Títulos da tabela */
-.cardapio th {
+/*titulos da tabela*/
+div.cardapio th {
    background-color: #ff687f;
    color: #6b2e1d;
    padding: 15px;
@@ -176,8 +176,8 @@ div.video iframe{
 }
 
 
-/* Conteúdo da tabela */
-.cardapio td {
+/*conteúdo da tabela*/
+div.cardapio td {
    padding: 15px;
    color: #6b2e1d;
    border-bottom: 1px solid #ffe1e3;
@@ -188,7 +188,7 @@ div.video iframe{
 
 
 
-.cardapio tr:hover {
+div.cardapio tr:hover {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     background-color: #f9d5d9;
 }
@@ -206,7 +206,7 @@ tabelas {
 
 
 
-.categoria {
+div.categoria {
     background-color: #fffaf7;
     border: 2px solid #e8c7c8;
     border-radius: 20px;
@@ -219,7 +219,7 @@ tabelas {
 }
 
 
-.categoria h3 {
+div.categoria h3 {
     background-color: #b87872;
     color: #fffaf7;
    text-align: center;
@@ -230,7 +230,7 @@ tabelas {
 }
 
 
-/* TABELA */
+/*tabela*/
 table {
    
     border-collapse: collapse;
@@ -265,7 +265,7 @@ tr:hover {
 
 
 
-.extras {
+div.extras {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -273,7 +273,7 @@ tr:hover {
 }
 
 
-.extras div {
+div.extras div {
     background-color: #f5e2dd;
     color: #5c4540;
     padding: 25px;
@@ -283,22 +283,20 @@ tr:hover {
     transition: 0.3s; 
     box-shadow:0 0 5px #ad625f; 
 }
-.extras div:hover{
+div.extras div:hover{
      transform: translateY(-5px);    
 }
 
 
-.extras h3 {
+div.extras h3 {
     font-size: 25px;
     margin-bottom: 15px;
     color: #ad625f;
 }
 
 
-.extras p {
+div.extras p {
     margin: 10px;
-
-
 }
 
 span.texto h1{
