@@ -20,24 +20,23 @@ header {
 }
 
 /*logo*/
-.logo h1 {
+div.logo h1 {
     color: #b87872;
     font-size: 32px;
     margin-bottom: -12px;
 }
 
-.logo p {
+div.logo p {
     color: #a58b83;
     font-size: 18px;
     /*margin-top: 4px;*/
 }
 
-.logo {
+div.logo {
     margin: 1px;
-}
-div.logo{
     margin-left: 15px;
 }
+
 /*menu*/
 nav ul {
     display: flex;
